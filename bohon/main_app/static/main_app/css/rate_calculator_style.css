@@ -1,0 +1,214 @@
+.flex-heading {
+    width: 655px;
+    height: 86px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffbc42;
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  .form {
+    
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top:20px ;
+    padding-left: 55px;
+
+  }
+  .form_2{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top:-55px ;
+    padding-left: 700px;
+
+
+  }
+  #ip2{
+        border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;
+    box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25); 
+  }
+  #ip1{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 200px;
+    height: 15px; 
+    box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+  }
+  #ip3{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 150px;
+    height: 15px; 
+    box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+
+  }
+  .form_3{
+
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: gray;
+      padding-right: 1250px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    .form_4{
+
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: gray;
+      padding-right: 800px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: -155px;
+
+    }
+    #ip4{
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 20px; 
+      width: 150px;
+      height: 15px; 
+      box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+    }
+    .form_5{
+
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: gray;
+      padding-right: 340px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: -155px;
+
+    }
+    #ip5{
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 20px; 
+      width: 150px;
+      height: 15px; 
+      box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+    }
+    .form_6{
+
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: gray;
+      padding-right: -200px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: -155px;
+      margin-left: 500px;
+    }
+    #ip6{
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 20px; 
+      width: 150px;
+      height: 15px; 
+      box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+    }
+    #delivery{
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 20px; 
+      width: 150px;
+      height: 15px; 
+      box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+      margin-right: 100px;
+
+    }
+    .Delivery_type{
+
+      font-family: Montserrat;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgb(0, 0, 0);
+      padding-right: -200px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: -155px;
+      margin-left: 50px;
+    }
+    #Shipment{
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 20px; 
+      width: 150px;
+      height: 15px; 
+      box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+      margin-right: 100px;
+      margin-top: 50px;
+
+    }
+    .Shipment_type{
+
+      font-family: Montserrat;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgb(0, 0, 0);
+      padding-right: -200px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: -200px;
+      margin-left: 50px;
+    }
+    #ip7{
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 20px; 
+      width: 150px;
+      height: 15px; 
+      box-shadow:4px 4px 10px 0 rgba(0, 0, 0, 0.25) ;
+    }

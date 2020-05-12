@@ -1,0 +1,57 @@
+{% extends 'rate_calculator_base.html' %}
+
+{% block content %}
+
+    <div class="flex-heading">
+        Rate calculator
+    </div>
+    <form class="form">
+        Pick up location <input name="pick up location" type="text" id="ip1"> <br>
+
+    </form>
+    <form class="form_2">
+        Drop Location 
+        <input name="drop location" type="text" id="ip2"> <br>
+    </form>
+    <div>
+        <h2 style="margin-left: 55px; margin-top: 50px;">Package Details</h2>
+    </div>
+    <div>
+        <form class="form_3">
+            <input name="length" type="number" id="ip3"> <br>
+            <h5 style="margin-top: 20px;">Length</h5>
+
+        </form>
+        <form class="form_4">
+            <input name="Width" type="number" id="ip4"> <br>
+            <h5 style="margin-top: 20px;">Width</h5>
+        </form>
+        <form class="form_5">
+            <input name="Height" type="number" id="ip5"> <br>
+            <h5 style="margin-top: 20px;">Height</h5>
+        </form>
+        <form class="form_6">
+            <input name="Weight" type="number" id="ip6"> <br>
+            <h5 style="margin-top: 20px;">Weight</h5>
+        </form>
+        <label class="Delivery_type">Delivery Type</label>
+        <select id="delivery" name="list" form="deliveryform">
+            <option value="Fast Delivery">Fast Delivery</option>
+            <option value="Oneday Delivery">Oneday Delivery</option>
+            <option value="Normal Delivery">Normal Delivery</option>
+            </select>
+        <div>
+            <label class="Shipment_type">Shipment Type</label>
+            <select id="Shipment" name="list" form="Shipmentform">
+                <option value="Return">Return</option>
+                <option value="Forword">Forword</option>
+                </select>
+        </div>
+        <div>
+            <form>
+                <input type="submit" action="{% url 'rate-calculator' %}">
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
